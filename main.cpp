@@ -80,12 +80,6 @@ PE_CONTEXT LoadFileToMemory(IN LPCSTR str) {
 	return pe;
 }
 
-
-
-
-
-
-
 //将修改后的PE文件写入磁盘
 BOOL WriteFile(PE_CONTEXT pe, char* str) {
 	FILE* hFile = fopen("New.exe", "wb");

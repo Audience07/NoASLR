@@ -1,4 +1,4 @@
-# 🚀 PE ASLR
+# 🚀 NoASLR
 
 一个用于修改 Windows PE 可执行文件 ASLR 标志的简单 C++ 工具。
 
@@ -20,7 +20,7 @@
 3. 运行程序并传入要修改的 PE 文件路径：
 
 ```bash
-PE ASLR.exe target.exe
+PE_ASLR.exe target.exe
 ```
 
 程序执行后，会输出 ASLR 当前状态，并在同目录生成 `New.exe`。
